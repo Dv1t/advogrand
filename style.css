@@ -8,7 +8,7 @@ body{
 	display: grid;
 	height: 100vh;
 	grid-template-columns: 1fr;
-	grid-template-rows: 10% 10% 10fr;
+	grid-template-rows: 10vh 10vh 80vh;
 	grid-gap: 0px;
 	margin: 0px;
 	padding: 0px;
@@ -113,5 +113,5 @@ margin: 0 10%;
 }
 #block2{
 	display: grid;
-	height: 100vh;
+	height: 90vh;
 }
