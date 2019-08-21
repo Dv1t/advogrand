@@ -125,8 +125,8 @@ margin: 0 10%;
 #block2>span{
 	display: block;
 	font-weight: bold;
-	font-size: 1.2em;
-	margin-top: 5%;
+	font-size: 1.5em;
+	margin-top: 15vh;
 	height: 1.5em;;
 }
 #icons-block{
@@ -283,5 +283,56 @@ flex-direction: column;
 	height: 12%;
 	margin-bottom: 0;
 	margin-top: 5%;
+}
+#block6{
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
 
+#block6 .bar a{
+	text-decoration: none;
+	color: black;
+	display: inline-block;
+	text-transform: uppercase;
+	margin-right: 2em;
+	padding: 0.5em;
+}
+#block6 .bar a.active{
+	border: 2px #e42626 solid;
+	border-radius: 0.3em;
+	color: #e42626;
+}
+#block6 .bar a:hover{
+	color: #e42626;
+}
+#block6 .videobar{
+	display: flex;
+	flex-direction:row;
+	margin-top:8%;
+	justify-content: space-between;
+	width: 80%;
+	position: relative;
+}
+#block6 .videobar video{
+	display: block;
+	width: 25vw;
+}
+#block6 .videobar div{
+	width: 25vw;
+}
+#block6 .videobar div a{
+	text-decoration: none;
+	color: black;
+}
+#block6 .videobar div a:hover{
+	text-decoration:underline;
+	color: #e42626;
+}
+#block6 .videobar canvas{
+	right:-12%;
+	top:28%;
+	position: absolute;
+	width: 100px;
 }
