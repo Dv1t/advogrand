@@ -3,15 +3,13 @@
     if (canvas.getContext){
         var ctx = canvas.getContext('2d');
         ctx.beginPath();
-        ctx.lineWidth=6;
-        ctx.moveTo(0,100);
-        ctx.lineTo(103,100);
-        ctx.moveTo(50,70);
-        ctx.lineTo(100,100);
-        ctx.lineWidth=6;
-        ctx.moveTo(50,130);
-        ctx.lineTo(100,100);
-        ctx.lineWidth=8;
+        ctx.moveTo(50,75);
+        ctx.lineTo(300,75);
+        ctx.moveTo(200,0);
+        ctx.lineTo(300,75);
+        ctx.moveTo(200,150);
+        ctx.lineTo(300,75);
+        ctx.lineWidth=2.5;
         ctx.strokeStyle="black";
         
         ctx.stroke();

@@ -5,6 +5,7 @@ body{
 	margin: 0px;
 	font-size: 14pt;
 	font-family: Verdana;
+	overflow-x: hidden;
 }
 
 #block1{
@@ -23,7 +24,7 @@ body{
  padding-top:0.5%;
  padding-bottom:0.5%;
  font-size: 0.9em;
-
+ z-index: 10;
 }
 nav{
 	height: 100%;
@@ -318,12 +319,38 @@ flex-direction: column;
 	width: 80%;
 	position: relative;
 }
+#block6 div.videobar.animated
+{
+	transform: translateX(-38%);
+	transition-property: transform;
+	transition-duration: .5s;
+}
+#block6 div.videobar.animatedR{
+	opacity: 0;
+	transition-property: opacity;
+	transition-duration: .2s;
+}
+#block6 div.animatedRR{
+	opacity: 1;
+	transition-property: opacity;
+	transition-duration: 1s;
+}
+#block6 .vidset{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+	margin-left: 10vw;
+	
+	
+}
 #block6 .videobar video{
 	display: block;
-	width: 25vw;
+	width: 25vw;	
 }
 #block6 .videobar div{
 	width: 25vw;
+	margin-right: 3%;
 }
 #block6 .videobar div a{
 	text-decoration: none;
@@ -333,9 +360,16 @@ flex-direction: column;
 	text-decoration:underline;
 	color: #e42626;
 }
-#block6 .videobar canvas{
-	right:-12%;
-	top:28%;
+#block6 .vidset canvas{
+	width: 8%;
+	z-index: 0;
+	position: relative;
+	left: 9vw;
+	top:5vh;
+}
+.hide{
+	
 	position: absolute;
-	width: 100px;
+	right: -52.7%;
+	opacity: 0;
 }
