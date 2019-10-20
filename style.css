@@ -383,6 +383,11 @@ flex-direction: column;
 	flex-direction: column;
 	align-items: center;
 }
+#block7 h1{
+
+	margin-top:10vh;
+	display:block;
+}
 #block7 .partners{
 	display:grid;
 	grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -424,5 +429,55 @@ flex-direction: column;
 	white-space: normal;
 	color: white;
 	margin: 0 5%;
+}
+#block8{
+	height: 100vh;
+	padding-top:10vh;
+	padding-left: 10vw;
+	padding-right: 10vw;
+}
+#block8>h1{
+	text-align: left;
+	margin-top:10vh;
+}
+#block8>strong{
+	text-align: left;
+	margin-top:3vh;
+	margin-bottom: 5vh;
+	display: inline-block;
+}
+#block8 .rhead{
+	display: flex;
+	flex-direction: row;
+	width: 80vw;
+	justify-content: space-between;
+}
+#block8 .rhead span{
+	justify-self: flex-start;
+}
+#block8 .rhead a{
+	
+	display:inline-block;
+	text-decoration: none;
+	color: black;
+	margin-right: 2em;
+	padding: 0.5em;
+}
+#block8 .rhead a.active{
+	border: 2px #e42626 solid;
+	border-radius: 0.3em;
+	color: #e42626;
+}
+#block8 .rhead a:hover{
+	color: #e42626;
+}
+#block8 .rates{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+#block8 .rate{
+	display: flex;
+	flex-direction: column;
 	
 }

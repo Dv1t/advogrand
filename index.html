@@ -6,16 +6,16 @@
 	<link rel="stylesheet" href="./style.css">
 </head>
 <body>
-	<div id="block1">
+	<div id="block1" class="block">
 		<div></div>
 		<div class="move">
 		<nav>
 			<a id="phone-number">+7 499 322-05-80</a>
-			<div class="menu-item"><a href="#">Как мы работаем</a></div>
-			<div class="menu-item"><a href="#">Преимущества</a></div>
+			<div class="menu-item"><a href="#howWeWork">Как мы работаем</a></div>
+			<div class="menu-item"><a href="#advantages">Преимущества</a></div>
 			<div class="menu-item"><a href="#reviews">Отзывы</a></div>
 			<div class="menu-item"><a href="#">Тарифы</a></div>
-			<div class="menu-item"><a href="#">Партнёры</a></div>
+			<div class="menu-item"><a href="#partners">Партнёры</a></div>
 			<div class="menu-item"><a href="#">Контакты</a></div>
 			<div class="menu-item"><a href="#" class="btn">Перезвоните мне</a></div>
 		</nav>
@@ -42,7 +42,8 @@
 		<a href="#" class="btn" id="wantBtn">Хочу «личного юриста»!</a>
 		</div>
 	</div>
-	<div id="block2">
+	<div id="block2" class="block">
+		<a name='howWeWork'></a>
 		<span>Услуги предоставляемые сервисом Advograd</span>
 		<div id="icons-block">
 			<div class="icon"><img src="./images/professor-consultation.png" alt=""><span>Устные<br>консультации</span></div>
@@ -56,7 +57,7 @@
 			<div class="icon"><img src="./images/balance.png" alt="" ><span>Все области<br>права</span></div>
 		</div>
 	</div>
-	<div id="block3">
+	<div id="block3" class="block">
 		<span>
 				<h2>О сервисе Advogrand</h2>
 				<p>В составе нашей команды трудятся профессионалы, имеющие огромный опыт реальной юридической практики. <br>
@@ -84,7 +85,7 @@
 			</span>
 		</div>
 	</div>
-	<div id="block4">
+	<div id="block4" class="block">
 		<h2>Как оказывается услуга</h2>
 		<div>
 			<img src="./images/step1.png" alt="">
@@ -95,7 +96,8 @@
 			<p><b>Ваш вопрос решен!</b>
 		</div>
 	</div>
-	<div id="block5">
+	<div id="block5" class="block">
+		<a name="advantages"></a>
 		<h2>Преимущество сервиса Advogrand<br>по сравнению с другими юридическими компаниями</h2>
 		<div>
 			<div style="text-align: right;">
@@ -144,7 +146,7 @@
 			</div>
 		</div>
 	</div>
-	<div id="block6">
+	<div id="block6" class=block>
 		<a name='reviews'></a>
 		<h1 style="margin-top: 10vh;">Отзывы</h1>
 		<div class="bar">
@@ -175,7 +177,8 @@
 			<script src="./scripts/arrow.js"></script>
 			<script src="./scripts/video.js"></script>
 	</div>
-	<dvi id="block7">
+	<div id="block7" class="block">
+		<a name='partners'></a>
 		<h1>Партнеры Advogrand</h1>
 		<div class="partners">
 			<div class="partner">
@@ -216,6 +219,111 @@
 			</div>
 		</div>
 		<script src="./scripts/partners.js"></script>
-	</dvi>
+	</div>
+	<!-- <div id="block8" class="block">
+		<h1>Выберите тариф</h1>
+		<strong>Вы можете оформит карту и начать пользоваться услугами уже сейчас! <br>
+		Оформление займёт всего 10 минут</strong>
+		<div class="rhead">
+			<span>Выберите годовую карту, которая Вам подходит.</span>
+			<div>
+				<a href="#tariff" class="active">СРАВНИТЬ ТАРИФЫ</a>
+				<a href="#tariff" >ТАРИФЫ</a>
+			</div>
+		</div>
+		<div class="rates">
+			<div class="rate">
+				<p>Персональная карта <br><strong>для Вас</strong></p>
+				<img src="./images/personal-standard-1.png" alt="">
+					<span>
+						<p class="left">Устные консультации</p>
+						<strong class="right">2 в месяц</strong>
+					</span>
+					<span>
+						<p class="left">Консультации в отношении 3-х лиц</p>
+						<strong class="right">2 в год</strong>
+					</span>
+					<span>
+						<p class="left">Письменные консультации</p>
+						<strong class="right">2 в квартал</strong>
+					</span>
+					<span>
+						<p class="left">Звонок юриста</p>
+						<strong class="right">1 в год</strong>
+					</span>
+					<span>
+						<p class="left">Содействие в переговорах</p>
+						<strong class="right">1 в месяц</strong>
+					</span>
+				<div class="low">
+					<span>Цена</span>
+					<h1>65$ за год</h1>
+					<a href="консультация"></a>
+					<a href="купить"></a>
+				</div>
+			</div>
+			<div class="rate">
+				<p>Карта<br><strong>для всей семьи</strong></p>
+				<img src="./images/family-standard-1.png" alt="">
+				<span>
+						<p class="left">Устные консультации</p>
+						<strong class="right">2 в месяц</strong>
+					</span>
+					<span>
+						<p class="left">Консультации в отношении 3-х лиц</p>
+						<strong class="right">2 в год</strong>
+					</span>
+					<span>
+						<p class="left">Письменные консультации</p>
+						<strong class="right">2 в квартал</strong>
+					</span>
+					<span>
+						<p class="left">Звонок юриста</p>
+						<strong class="right">1 в год</strong>
+					</span>
+					<span>
+						<p class="left">Содействие в переговорах</p>
+						<strong class="right">1 в месяц</strong>
+					</span>
+				<div class="low">
+					<span>Цена</span>
+					<h1>130$ за год</h1>
+					<a href="консультация"></a>
+					<a href="купить"></a>
+				</div>
+			</div>
+			<div class="rate">
+				<p>Карта<br><strong>для бизнеса</strong></p>
+				<img src="./images/business.png" alt="">
+				<span>
+						<p class="left">Устные консультации</p>
+						<strong class="right">2 в месяц</strong>
+					</span>
+					<span>
+						<p class="left">Консультации в отношении 3-х лиц</p>
+						<strong class="right">2 в год</strong>
+					</span>
+					<span>
+						<p class="left">Письменные консультации</p>
+						<strong class="right">2 в квартал</strong>
+					</span>
+					<span>
+						<p class="left">Звонок юриста</p>
+						<strong class="right">1 в год</strong>
+					</span>
+					<span>
+						<p class="left">Содействие в переговорах</p>
+						<strong class="right">1 в месяц</strong>
+					</span>
+				<div class="low">
+					<span>Цена</span>
+					<h1>260$ за год</h1>
+					<a href="консультация"></a>
+					<a href="купить"></a>
+				</div>
+			</div>
+		</div>
+	</div> -->
+	<script src="./scripts/scroll.js"></script>
 </body>
 </html>	
